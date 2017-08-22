@@ -7,11 +7,9 @@ https://launchpad.net/~damien-moore/+archive/ubuntu/codeblocks-stable
 sudo apt install codeblocks
 ```
 
-* Run ```codeblocks``` and open the source you created within Projucer
+Run codeblocks and open ```<projname>/Builds/CodeBlocksLinux/<projname>.cbp```
 
-Codeblocks doesn't seem to like selecting Clang, so let's install GNU
-```bash
-sudo apt install g++
-```
+Select Build > Build
+
 # OpenGL 2D
 Shader demo recompiles in realtime

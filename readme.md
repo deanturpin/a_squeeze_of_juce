@@ -4,6 +4,7 @@ git clone https://github.com/WeAreROLI/JUCE
 ```
 
 # Dependencies (Ubuntu 16)
+See the [JUCE forum](https://forum.juce.com/t/list-of-juce-dependencies-under-linux/15121)
 ```
 sudo apt-get -y install libasound2-dev
 sudo apt-get -y install libfreetype6-dev
@@ -45,4 +46,13 @@ Log started: 22 Aug 2017 5:43:36pm
 
 Linux
 CPU: 861MHz  Cores: 4  7882MB
+```
+
+# Create a new Audio Application
+![](images/projucer.png)
+
+# Building on the command line
+```bash
+cd <projname>/Builds/LinuxMakefile
+make -j 4
 ```
