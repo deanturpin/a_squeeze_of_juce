@@ -1,4 +1,4 @@
-# Get the library
+# Fetch the library
 ```bash
 git clone https://github.com/WeAreROLI/JUCE
 ```
@@ -16,18 +16,19 @@ sudo apt-get -y install libgtk-3-dev
 sudo apt-get -y install webkit2gtk-4.0
 ```
 
-# Compile the demo
+# Demo
+Compile
 ```bash
 cd JUCE/examples/Demo/Builds/LinuxMakefile
 make -j 4
 ```
-# And run it
+Run
 ```bash
 ./build/JuceDemo
 ```
 
-# Projucer
-Build
+# Compile Projucer the project manager
+Compile
 ```bash
 cd ~/JUCE/extras/Projucer/Builds/LinuxMakefile/
 make -j 4
