@@ -1,5 +1,6 @@
 # Fetch the library
 ```bash
+cd
 git clone https://github.com/WeAreROLI/JUCE
 ```
 
@@ -28,7 +29,7 @@ Run
 ./build/JuceDemo
 ```
 
-# Compile Projucer the project manager
+# Compile the project manager
 Compile
 ```bash
 cd ~/JUCE/extras/Projucer/Builds/LinuxMakefile/
@@ -46,6 +47,12 @@ Log started: 22 Aug 2017 5:43:36pm
 
 Linux
 CPU: 861MHz  Cores: 4  7882MB
+```
+
+# Compile all the Linux demos
+```bash
+cd ~/JUCE/examples
+for dir in $(find . -name LinuxMakefile); do pushd $dir; make -j 4; popd; done
 ```
 
 # Create a new Audio Application
