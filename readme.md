@@ -1,4 +1,4 @@
-# Fetch the library
+# Download the JUCE library
 ```bash
 cd
 git clone https://github.com/WeAreROLI/JUCE
