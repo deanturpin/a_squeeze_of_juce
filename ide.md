@@ -13,3 +13,5 @@ Codeblocks doesn't seem to like selecting Clang, so let's install GNU
 ```bash
 sudo apt install g++
 ```
+# OpenGL 2D
+Shader demo recompiles in realtime

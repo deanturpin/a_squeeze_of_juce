@@ -21,22 +21,27 @@ sudo apt-get -y install webkit2gtk-4.0
 cd JUCE/examples/Demo/Builds/LinuxMakefile
 make -j 4
 ```
-# Documentation
-* https://www.juce.com/doc/tutorial_new_projucer_project
-
-* Continuous rebuild (not for Linux)
-* Nice full screen
-
-# You'll need an IDE
-https://launchpad.net/~damien-moore/+archive/ubuntu/codeblocks-stable
+# And run it
 ```bash
-sudo apt install codeblocks
+./build/JuceDemo
 ```
 
-* Run ```codeblocks``` and open the source you created within Projucer
-
-Codeblocks doesn't seem to like selecting Clang, so let's install GNU
+# Projucer
+Build
 ```bash
-sudo apt install g++
+cd ~/JUCE/extras/Projucer/Builds/LinuxMakefile/
+make -j 4
 ```
 
+Run
+```bash
+./build/Projucer 
+JUCE v5.1.1
+
+**********************************************************
+Projucer 5.1.1  ---  Build date: Aug 22 2017
+Log started: 22 Aug 2017 5:43:36pm
+
+Linux
+CPU: 861MHz  Cores: 4  7882MB
+```
