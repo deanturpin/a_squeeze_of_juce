@@ -16,6 +16,7 @@ sudo apt-get -y install libxrandr-dev
 sudo apt-get -y install libxcursor-dev
 sudo apt-get -y install libgtk-3-dev
 sudo apt-get -y install webkit2gtk-4.0
+sudo apt install doxygen
 ```
 
 # Demo
